@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    padding: 0 6% !important;
+}
+
+.navbar .logo-title{
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar .logo-title .title-links ul{
+    display: flex;
+    list-style-type: none;
+    /* color: black; */
+    gap: 35px;
+}
+.navbar .logo-title .title-links ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.title-links li a:hover{
+    color:  #1B385E;
+    border-bottom: 2px solid  #1B385E;;
+}
+
+.nav-btn a {
+    text-decoration: none;
+    color: black;
+    margin: 25px;
+}
+.nav-btn .contact-us{
+    padding: 12px 28px;
+    background: #1B385E;
+    color: #ffff;
+    border-radius: 5px
+}
